@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/register_"
+        android:layout_width="99dp"
+        android:layout_height="43dp"
+        android:text="회원가입"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="84dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAlignedChildIndex="1"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/db_Id_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <EditText
+            android:id="@+id/db_Id"
+            android:layout_width="183dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="299dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAlignedChildIndex="1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/db_Passward_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passward"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="267dp" />
+        <EditText
+            android:id="@+id/db_Passward"
+            android:layout_width="183dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="299dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAlignedChildIndex="1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/db_Passwardcheck_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passward확인"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="267dp" />
+        <EditText
+            android:id="@+id/db_Passwardcheck"
+            android:layout_width="183dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="299dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAlignedChildIndex="1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/db_grade1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학번"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="267dp" />
+        <EditText
+            android:id="@+id/db_grade"
+            android:layout_width="183dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="299dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAlignedChildIndex="1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="회원가입"
+            tools:layout_editor_absoluteY="533dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

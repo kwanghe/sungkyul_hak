@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="결과"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="필요학점"
+            tools:layout_editor_absoluteY="177dp" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="120dp"
+            android:text="총 학점"
+            tools:layout_editor_absoluteY="274dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/want_hak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="137"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/all_hak"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="150dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="총 평점"
+            tools:layout_editor_absoluteY="177dp" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="120dp"
+            android:text="전공 평점"
+            tools:layout_editor_absoluteY="274dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/all_pang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="137"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/all_jun"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="150dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pang_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1학년"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/pang_jum_1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+        <TextView
+            android:id="@+id/jun_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1학년"
+            android:layout_marginLeft="90dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/jun_jum_1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pang_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2학년"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/pang_jum_2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+        <TextView
+            android:id="@+id/jun_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2학년"
+            android:layout_marginLeft="90dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/jun_jum_2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pang_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3학년"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/pang_jum_3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+        <TextView
+            android:id="@+id/jun_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3학년"
+            android:layout_marginLeft="90dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/jun_jum_3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pang_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4학년"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/pang_jum_4"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+        <TextView
+            android:id="@+id/jun_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4학년"
+            android:layout_marginLeft="90dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/jun_jum_4"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="162"
+            tools:layout_editor_absoluteY="274dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/result_jun12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전공 필수"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="177dp" />
+        <TextView
+            android:id="@+id/result_jun1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="00"
+
+            tools:layout_editor_absoluteY="177dp" />
+        <TextView
+            android:id="@+id/result_jun2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="학점이 더 필요합니다."
+
+            tools:layout_editor_absoluteY="177dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/result_njun1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전공 선택"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="177dp" />
+        <TextView
+            android:id="@+id/result_njun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="00"
+
+            tools:layout_editor_absoluteY="177dp" />
+        <TextView
+            android:id="@+id/result_njun2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="학점이 더 필요합니다."
+
+            tools:layout_editor_absoluteY="177dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/result_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="00"
+
+            tools:layout_editor_absoluteY="177dp" />
+        <TextView
+            android:id="@+id/result_all1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="님은 졸업이 불가능 합니다."
+
+            tools:layout_editor_absoluteY="177dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="다음"
+            tools:layout_editor_absoluteY="533dp" />
+    </LinearLayout>
+</LinearLayout>
